@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+body{
+    background-color: rgb(17, 0, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headline{
+    margin: 50px auto;
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading{
+    width: 300px;
+    height: 400px;
+    padding: 0 30px;
+}
+.clk{
+    margin-left: 50px;
+    font-style: oblique;
+    font-size: smaller;
+}
+#CAT{
+    font-family: cursive;
+    margin-right: 70px;
+}
+#btn{
+    padding: 0 15px;
+}
+#btn:hover{
+    background-color: chartreuse;
+    color: red;
+}
+.facts{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 20px 20px;
+}
